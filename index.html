@@ -4,7 +4,124 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="dist/css/reset.css" />
+    <link rel="stylesheet" href="dist/css/styles.css" />
+    <title>Best-Horror-Scenes-Clone</title>
   </head>
-  <body></body>
+  <body>
+    <div id="main-container">
+      <div id="main-container__sidebar">
+        <pre>
+BEST
+HORROR
+SCENES</pre
+        >
+        <div id="main-container__sidebar__content">
+          <span
+            >An ever growing collection featuring some of the best scenes in
+            horror.</span
+          >
+          <span
+            >“Best Horror Scenes” is a collection of scenes I feel are some of
+            the most affecting in horror. Some may be simple black cat scares,
+            others may be more subdued or nuanced. Many come from films that
+            aren't necessarily “horror” but have elements or threads of horror,
+            and all have the same general effect: unease, dread, fear, shock,
+            disgust.</span
+          >
+          <nav>
+            <ul>
+              <li>Newsletter</li>
+              <li>Suggest a Scene</li>
+              <li>YouTube</li>
+              <li>Twitter</li>
+              <li>Contact</li>
+              <li>RSS</li>
+              <li>Letterboxd</li>
+            </ul>
+          </nav>
+          <span
+            >Best Horror Scenes is a love letter to the Horror film genre by
+            Brandon Durham. Most film clips contain major spoilers, and it is
+            recommended you don’t watch the clip if you plan on seeing the
+            film.</span
+          >
+          <div id="main-container__sidebar__content__footer"></div>
+        </div>
+      </div>
+      <div id="main-container__content">
+        <div id="main-container__content__movie__container">
+          <div id="main-container__content__movie__container__title">
+            <div id="main-container__content__movie__container__title_left">
+              <span>70</span>
+              <span>Terrified (2017)</span>
+            </div>
+            <div id="main-container__content__movie__container__title_right">
+              <span>Directed by Demián Rugna</span>
+            </div>
+          </div>
+          <div id="main-container__content__movie__container__content">
+            <img src="src/img/poster.png" alt="" />
+            <div id="main-container__content__movie__container__vote">
+              <div>↑</div>
+              <div>0</div>
+              <div>↓</div>
+            </div>
+          </div>
+
+          <div id="main-container__content__movie__container__comment">
+            <span
+              >This film came as a total surprise. After falling down the
+              “Viewers Also Watched” rabbit hole on Apple TV one night, I found
+              it probably 20 levels deep. It’s since become more popular, but at
+              the time had no marketing or exposure. I went in not expecting
+              much at all, but instead didn’t just like the film, I loved it.
+              It’s thoroughly enjoyable, and genuinely creepy with several truly
+              unnerving scenes. A fresh take on the genre, and follows no
+              well-worn path.</span
+            >
+            <span>
+              Note: If you can (as a general rule, of course), see if you can
+              find the non-dubbed version of the film. Also: There is nothing
+              creepier than a dead kid, and this film features possibly the
+              creepiest of them all.</span
+            >
+
+            <div id="main-container__content__movie__container__rating">
+              <div id="main-container__content__movie__container__rating-rank">
+                — B
+              </div>
+              <div
+                id="main-container__content__movie__container__rating-my-rate"
+              >
+                My rating: 7/10
+              </div>
+            </div>
+          </div>
+          <div id="main-container__footer"></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
+
+<!-- 
+* 설계도
+화면 width 1593 이상이면 (좌 33%), 우 67%  비율) footer 240
+화면 width 1592 이하 좌(600 고정), 우(992 유동) footer 240 -> 이것을 기준으로
+화면 width 1182 이하 좌(420 고정), 우(762 유동) footer 200
+화면 width 822 이하 : 좌측 sidebar가 상단으로 올라옴. footer 200
+
+div 822 x 811
+
+grid-template : 823이상인 경우 
+header content
+header content
+header footer
+
+grid-template : 823이상인 경우 
+header
+content
+footer
+
+ -->
